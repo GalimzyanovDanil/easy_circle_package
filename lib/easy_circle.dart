@@ -1,3 +1,3 @@
 library easy_circle;
 
-export 'src/Circle.dart' show Circle;
+export 'src/circle.dart' show Circle;

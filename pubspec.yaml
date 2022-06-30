@@ -1,12 +1,12 @@
 name: easy_circle
-description: Package for create circle.
-version: 0.0.1
+description: Package for create circle. The package was written to study the mechanism of publishing packages on pub.dev.
+version: 0.0.2
 homepage: https://github.com/GalimzyanovDanil/easy_circle_package
 repository: https://github.com/GalimzyanovDanil/easy_circle_package
 
 environment:
   sdk: ">=2.16.2 <3.0.0"
-  flutter: ">=1.17.0"
+  flutter: ">=1.20.0"
 
 dependencies:
   flutter:
@@ -22,6 +22,13 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.circle
+        pluginClass: Circle
+      ios:
+        pluginClass: Circle
 
   # To add assets to your package, add an assets section, like this:
   # assets:
