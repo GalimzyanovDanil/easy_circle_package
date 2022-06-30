@@ -12,6 +12,7 @@ and the Flutter guide for
 -->
 
 This package create circle.
+https://pub.dev/packages/easy_circle
 
 ## Features
 
